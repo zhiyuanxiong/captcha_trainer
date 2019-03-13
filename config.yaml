@@ -34,7 +34,7 @@ NeuralNet:
 Trains:
   SavedSteps: 100
   ValidationSteps: 500
-  EndAcc: 0.975
+  EndAcc: 0.99
   EndEpochs: 1
   BatchSize: 64
   TestBatchSize: 300
