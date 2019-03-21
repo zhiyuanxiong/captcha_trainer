@@ -20,7 +20,7 @@
 # - and set the characters to be excluded by CharExclude parameter.
 Model:
   Sites: []
-  ModelName: indosat-CNN5-H64-150x50_9800
+  ModelName: indosat-CNN5-H64-150x50_9990
   ModelType: 150x50
   CharSet: ALPHANUMERIC_LOWER
   CharExclude: [0]

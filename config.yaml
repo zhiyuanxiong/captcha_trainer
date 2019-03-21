@@ -11,7 +11,7 @@ System:
   TestRegex: '.*?(?=_)'
   TrainsPath: './dataset/indosat-CNN5-H64-150x50_trains.tfrecords'
   TestPath: './dataset/indosat-CNN5-H64-150x50_test.tfrecords'
-  TestSetNum: 300
+  TestSetNum: 1000
 
 # CNNNetwork: [CNN5, DenseNet]
 # RecurrentNetwork: [BLSTM, LSTM]
@@ -34,10 +34,10 @@ NeuralNet:
 Trains:
   SavedSteps: 100
   ValidationSteps: 500
-  EndAcc: 0.99
+  EndAcc: 0.998
   EndEpochs: 1
   BatchSize: 64
-  TestBatchSize: 300
+  TestBatchSize: 1000
   LearningRate: 0.01
   DecayRate: 0.98
   DecaySteps: 10000
